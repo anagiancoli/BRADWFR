@@ -1,0 +1,107 @@
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Arial Narrow';
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.container{
+  background-color:#8ACE00;
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.container:hover{
+  background-color: whitesmoke;
+
+}
+
+.container.clicado{
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.board{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+  justify-content: center;
+  grid-gap: 5px;
+}
+
+.app{
+  height: 100vn;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.screen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.8);
+
+}
+
+.bttn{
+  background: black;
+  color: #8ACE00;
+  border: gray;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  padding: 10px 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s ease-out;
+  max-height: 7rem;
+}
+
+
+
+.texto{
+  color: #8ACE00;
+  font-size: 5rem;
+}
+
+.historico{
+  color: #8ACE00;
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.historicotela{
+  color:black;
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+
+h1{
+  position: absolute; 
+  top: 20px;
+  left: 0;
+  width: 100%;
+}
