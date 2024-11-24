@@ -1,0 +1,26 @@
+
+.square {
+  background: #f7f5f5;
+  border: 50px solid #08070f;
+  float: left;
+  font-size: 50px;
+  margin-right: 2px;
+  margin-top: -1px;
+  
+}
+.game {
+  background-color: rgb(139, 182, 157);
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh; 
+}
+
+.game-board {
+  margin-bottom: 5px; 
+  text-align: center;
+  font-size: 30px;
+  
+}
+

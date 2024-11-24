@@ -1,0 +1,133 @@
+:root {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --square-bg: #333;
+  --square-border: #666;
+}
+
+* {
+  box-sizing: border-box;
+  color: var(--text-color);
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color) !important;
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+.square {
+  background: var(--square-bg);
+  float: left;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 80px;
+  height: 18svh;
+  width: 10svw;
+  text-align: center;
+  color: var(--text-color);
+  border-radius: 5px;
+  margin: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.square:hover>.bi-xbox{
+  color: #008000;
+}
+.square:hover>.bi-playstation{
+  color: #4c4cff;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+
+.status {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1e1e1e;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+}
+
+.game-info {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.reset-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.reset-button:hover {
+  background-color: #555;
+}
+
+i{
+  font-size: 24px;
+}
