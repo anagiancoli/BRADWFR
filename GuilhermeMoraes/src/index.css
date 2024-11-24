@@ -1,0 +1,14 @@
+.titulo{
+  width: 25vw;
+  margin: 5px;
+  padding: 10px;
+  background-color: rgb(12,108,252);
+  color: #ffff;
+  border-radius: 50px;
+  text-align: center;
+
+}
+.principal{
+  display: flex;
+  justify-content: center;
+}

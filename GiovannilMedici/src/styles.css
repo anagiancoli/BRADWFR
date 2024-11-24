@@ -1,0 +1,29 @@
+
+body {
+  background-color: #fbfbfe;
+}
+
+.bg-light-blue {
+  background-color: #add8e6;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  font-size: 24px;
+  margin: 5px;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.status {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 10px;
+}
