@@ -1,0 +1,53 @@
+body, html {
+  height: 100%;
+  width: auto;
+  margin: 0;
+  display: gird;
+  justify-content: center;
+  align-items: center;
+  background-color:azure; 
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-board {
+  margin-bottom: 20%; 
+}
+
+.board-row {
+  display: flex;
+}
+
+h1 {
+  font-family: "Rakkas", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(66, 66, 121);
+}
+
+.irPara{
+  background-color: rgb(168, 223, 224);
+}
+
+.square{
+  background-color: rgb(165, 214, 214);
+  width: 50px; 
+  height: 50px;
+  font-size: 24px;
+  padding: 0%;
+}
+
+.itens{
+  color: rgb(0, 127, 238);
+  padding: 0%;
+}
+
+.statuss{
+  font-family: "Rakkas", serif;
+}
+
+

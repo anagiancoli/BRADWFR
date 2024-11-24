@@ -1,0 +1,57 @@
+.square {
+    background: #ffffff;
+    border: 2px solid rgb(0, 18, 180);
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0px;
+    text-align: center;
+    width: 100px;
+    border-radius: 30px;
+    justify-content: center;
+  }
+
+  .square:hover {
+    background-color: rgb(177, 177, 177);
+    font-size: 40px;
+    size: 60px;
+    text-shadow: #646262;
+    color: #000000;
+  }
+
+  .status {
+    color: hsl(244, 95%, 43%);
+    font-size: 20px;
+    text-shadow: #000000, #646262;
+    text-align: center;
+    margin-left: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .game {
+    position: relative;
+    align-items: center;
+    margin: 50px;
+    display: flex;
+    
+  }
+
+  .board-row{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 10px;
+  }
+
+.button:hover{
+  color: #51a131;
+}
+
+.game-board{
+  align-self: center;
+}
