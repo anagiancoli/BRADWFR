@@ -1,0 +1,22 @@
+.searchMenu {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search {
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 1rem;
+  border: none;
+  background-color: #fcfcfcff;
+}
+
+.searchButton {
+  padding: 8px 12px;
+  border-radius: 0 4px 4px 0;
+  background-color: #fcfcfcff;
+  cursor: pointer;
+  font-size: 1rem;
+}

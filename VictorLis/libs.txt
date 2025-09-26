@@ -1,0 +1,3 @@
+Lucide-react: Icones da aplicação;
+React-Router-Dom: Sistema de navegação "robusto";
+React-toastify: É quem solta a mensagenzinha ao enviar o email;
